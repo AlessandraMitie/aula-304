@@ -1,0 +1,40 @@
+get -> pega as informações do banco/servidor para mostrar na página
+
+MVT - Model (se relaciona com banco, modelagem), View (método/onde vai a parte do negócio. ex: pega dados do usuário), Template (o que o usuário vai ver/ a página que vai retornar para o usuário)
+
+manage.py -> sempre jogar na pasta raíz do projeto
+settings.py e urls.py > sempre deixar na subpasta raiz do projeto
+
+Não pode ter traço - no nome de criação de pasta de projeto
+
+Erro: "no moduled....." -> significa que há erro de estrutura
+
+Terminal:
+
+py -m venv env
+    -> comando para criar um ambiente virtual
+    -> python -m -> serve para criar
+    -> venv -> só funciona a partir da versão 3.
+    -> venv env -> criar um ambiente virtual
+    -> env -> é o ambiente virtual
+    Quandomostra o (env) no terminal, quer dizer que tem o ambiente virtual
+
+source env/Scripts/activate
+
+pip install django
+
+pip freeze
+    mostra tudo o que foi instalado sobre o django
+
+pip freeze > requirements.txt
+    vai criar um arquivo e mostrará todas as informações sobre o django/projeto
+
+pip install -r requirements.txt
+    para clonar o ambiente do 0
+
+django-admin help
+    -> vai mostrar os comandos que podem ser executados
+
+django-admin startproject projeto_casa
+
+python manage.py runserver
